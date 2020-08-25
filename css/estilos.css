@@ -110,6 +110,8 @@ h2{
     display: flex;
     justify-content: space-between;
     height: 110px;   
+    position: relative;
+    box-shadow: 0px 0px 4px 0px #131010;
 }
 
 .header a{
