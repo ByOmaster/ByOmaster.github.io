@@ -214,11 +214,10 @@ text-align: center;
 .contacto {
     background-color: #056fff;
     color: white;
-    height: 170px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .social{
@@ -290,7 +289,9 @@ text-align: center;
 }
 
 @media screen and (max-width: 1024px){
-
+.container{
+    padding: 0 1em;
+}
 
 }
 
@@ -358,6 +359,24 @@ text-align: center;
     .project-details{
         width: auto;
         font-size: 12px;
+    }
+    .contacto{
+        height: auto;
+        padding: 1em 0;
+        text-align: center;
+        display: block;
+    }
+    .form-email button{
+        margin: 1em auto;
+    }
+    .form-email h3{
+        margin-top: 0;
+        font-size: 25px;
+    }
+    .footer{
+        display: block;
+        text-align: center;
+        border: 1px solid transparent;
     }
 }
 
